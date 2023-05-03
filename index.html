@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" class="css-style-sheet" type="text/css">
     <title>About Me</title>
 </head>
 <body>
@@ -27,7 +27,19 @@
         excellent areas to partake in all my activities and practice my craft, my programming. I continuously strive to continue 
         learning new ways to improve in Computer Science and Software Engineering. 
     </p>
-    <button id="dark">Click for Dark Mode</button>
-    <button id="light">Click for Light Mode</button>
+    <button onclick="darkMode()">Click for Dark Mode</button>
+    <button onclick="lightMode()">Click for Light Mode</button>
+    <script>
+        function darkMode(){
+            document.getElementsByTagName("body")[0].style.background = "black";
+            document.getElementsByTagName("body")[0].style.color = "white";
+            document.getElementsByTagName("a")[0-4].style.color = "white";
+        }
+
+        function lightMode(){
+            document.getElementsByTagName("body")[0].style.background = "linear-gradient(to bottom right, aliceblue, lightsteelblue)";
+            document.getElementsByTagName("body")[0].style.color = "black";
+        }
+    </script>
 </body>
 </html>

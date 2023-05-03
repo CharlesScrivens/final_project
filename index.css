@@ -4,12 +4,17 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: peach;
+    background: linear-gradient(to left top, lightblue, lightskyblue);
     border: 3px solid black;
     border-radius: 10%;
 }
 
 a {
+    display: block;
+    padding: 10px;
+}
+
+.fake-a, .fake-ab{
     display: block;
     padding: 10px;
 }
@@ -21,7 +26,7 @@ img {
 }
 
 body {
-    background: lightblue;
+    background: linear-gradient(to bottom right, aliceblue, lightsteelblue);
     text-align: center;
     text-decoration: none;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -54,5 +59,6 @@ a:visited {
 }
 
 button {
-    border-radius: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, lightblue, cornflowerblue);
 }
