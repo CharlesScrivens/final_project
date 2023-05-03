@@ -91,12 +91,31 @@
         function darkMode(){
             document.getElementsByTagName("body")[0].style.background = "black";
             document.getElementsByTagName("body")[0].style.color = "white";
-            document.getElementsByTagName("a")[0-4].style.color = "white";
+            ths = document.getElementsByTagName("th");
+            tds = document.getElementsByTagName("td");
+            for (i=0; i < ths.length;i++) {
+                document.getElementsByTagName("th")[i].style.border = "2px solid white";
+                document.getElementsByTagName("th")[i].style.border.radius = "5px";
+            }
+            for (i=0; i < tds.length;i++) {
+                document.getElementsByTagName("td")[i].style.border = "2px solid white";
+                document.getElementsByTagName("td")[i].style.border.radius = "5px";
+            }
         }
 
         function lightMode(){
             document.getElementsByTagName("body")[0].style.background = "linear-gradient(to bottom right, aliceblue, lightsteelblue)";
             document.getElementsByTagName("body")[0].style.color = "black";
+            ths = document.getElementsByTagName("th");
+            tds = document.getElementsByTagName("td");
+            for (i=0; i < ths.length;i++) {
+                document.getElementsByTagName("th")[i].style.border = "2px solid black";
+                document.getElementsByTagName("th")[i].style.border.radius = "5px";
+            }
+            for (i=0; i < tds.length;i++) {
+                document.getElementsByTagName("td")[i].style.border = "2px solid black";
+                document.getElementsByTagName("td")[i].style.border.radius = "5px";
+            }
         }
     </script>
     </p>

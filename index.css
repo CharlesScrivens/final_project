@@ -14,11 +14,6 @@ a {
     padding: 10px;
 }
 
-.fake-a, .fake-ab{
-    display: block;
-    padding: 10px;
-}
-
 img {
     border-radius: 20%;
     width: 250px;
