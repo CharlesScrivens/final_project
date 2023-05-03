@@ -22,7 +22,7 @@ img {
 
 body {
     background: lightblue;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 10px;
@@ -36,3 +36,15 @@ p {
     padding: 15px;
 }
 
+.resume-list{
+    list-style-type: none;
+}
+
+th, td {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.table-list {
+    list-style: none;
+}
