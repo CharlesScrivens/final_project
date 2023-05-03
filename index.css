@@ -48,3 +48,11 @@ th, td {
 .table-list {
     list-style: none;
 }
+
+a:visited {
+    color: blue;
+}
+
+button {
+    border-radius: 5px;
+}
